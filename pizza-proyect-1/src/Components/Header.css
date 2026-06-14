@@ -1,0 +1,26 @@
+.home-header {
+  width: 100%;
+}
+
+.header-bg {
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-overlay {
+  width: 100%;
+  min-height: 60vh;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.home-header h1,
+.home-header p {
+  color: #ffffff;
+}
+
+.home-header p {
+  max-width: 720px;
+  margin: 0 auto;
+}
