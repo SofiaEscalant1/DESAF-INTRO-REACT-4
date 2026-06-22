@@ -1,5 +1,14 @@
 import { formatNumber } from '../utils/formatPrice'
 
+export function Cart() {
+  return (
+    <main className="container py-4">
+      <h1>Carrito</h1>
+      <p>Aquí irán los productos añadidos al carrito.</p>
+    </main>
+  )
+}
+
 export function CardPizza({ name, price, ingredients, img }) {
   return (
     <div className="card h-100 shadow-sm">
@@ -19,4 +28,7 @@ export function CardPizza({ name, price, ingredients, img }) {
     </div>
   )
 }
+
+
+
 
