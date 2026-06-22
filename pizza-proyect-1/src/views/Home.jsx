@@ -1,5 +1,5 @@
 import { Header } from '../Components/Header'
-import { Cart } from './Cart'
+import { CardPizza } from './Cart'
 
 const pizzas = [
   {
@@ -30,7 +30,7 @@ export function Home() {
         <div className="row g-4">
           {pizzas.map((pizza) => (
             <div className="col-12 col-md-6 col-lg-4" key={pizza.name}>
-              <Cart {...pizza} />
+              <CardPizza {...pizza} />
             </div>
           ))}
         </div>

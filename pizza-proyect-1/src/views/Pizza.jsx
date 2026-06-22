@@ -1,4 +1,4 @@
-import { formatNumber } from '../utils/formatPrice'
+
 
 export function Pizza() {
   return (
